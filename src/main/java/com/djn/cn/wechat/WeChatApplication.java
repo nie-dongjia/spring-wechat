@@ -2,7 +2,6 @@ package com.djn.cn.wechat;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
-import org.springframework.boot.web.servlet.ServletComponentScan;
 
 /**
  * CasClientApplication 启动类
@@ -10,7 +9,6 @@ import org.springframework.boot.web.servlet.ServletComponentScan;
  * @author op.nie-dongjia
  * @date 2016/10/31
  */
-@ServletComponentScan
 @SpringBootApplication
 public class WeChatApplication {
     public static void main(String[] args) {

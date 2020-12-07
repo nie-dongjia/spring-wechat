@@ -11,7 +11,7 @@ import java.util.Arrays;
  * @date 2020/12/4 14:05
  */
 public class SignUtil {
-    // 与接口配置信息中的Token要一致
+    /**与接口配置信息中的Token要一致*/
     private static String token = "zntie";
 
     /**
