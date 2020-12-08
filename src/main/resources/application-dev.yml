@@ -10,7 +10,8 @@ wx:
         token: whzntie
         aesKey:
 
-
+logging:
+  config: classpath:logback-dev.xml
 
 
 

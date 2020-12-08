@@ -1,9 +1,15 @@
-wechat:
-  app-id: wxa5d82ad1c9f8311d
-  app-secret: 08075b7b3c160eb5ed7ae760634cb86c
+wx:
+  mp:
+    useRedis: false
+    redisConfig:
+      host: 127.0.0.1
+      port: 6379
+    configs:
+      - appId: wxa5d82ad1c9f8311d
+        secret: 08075b7b3c160eb5ed7ae760634cb86c
+        token: whzntie
+        aesKey:
 
 
-
-
-
-
+logging:
+  config: classpath:logback-prod.xml
