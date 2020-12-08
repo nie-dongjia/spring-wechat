@@ -1,6 +1,6 @@
 spring:
   application:
-    name: spring-cas-client
+    name: spring-wechat
   profiles:
     active: dev
   jackson:
